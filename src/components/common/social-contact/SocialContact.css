@@ -1,0 +1,82 @@
+ul{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+
+ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    
+    
+}
+ul li a{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    text-decoration: none;
+    
+    font-size: 1.3em;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 45px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+ul li a:hover{
+    transform: translateY(-20px);
+
+}
+ul li a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 50px;
+height: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  transform: skewX(45deg) translateX(120px);
+  transition: 0.5s;
+
+}
+ul li a:hover::before{
+    transform: skewX(45deg) translateX(-120px);
+}
+@media only screen and (max-width: 720px){
+    ul{
+        justify-content: center;
+    }
+    ul li a{
+    position: relative;
+
+    width: 38px;
+    height: 38px;
+    font-size: 1.0em;
+    }
+}
+.a:hover{
+    color: #fb3958;
+}
+.b:hover{
+    color: #0e76a8;
+}
+.c:hover{
+    color: white;
+}
+.d:hover{
+    color: 	#FFFC00;
+}
+.e:hover{
+    color: #25D366;
+}

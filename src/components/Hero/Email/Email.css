@@ -1,0 +1,30 @@
+
+  .email:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: white;
+  }
+  .email {
+    display: flex;
+    flex-direction: flex-end;
+    align-items: center;
+    position: relative;
+    margin: 50px auto;
+    margin-right: 50px;
+    margin-right: 50px;
+    padding: 50px;
+    font-family: var(--font-mono);
+    font-size: var(--fz-xxs);
+    line-height: var(--fz-lg);
+    letter-spacing: 0.1em;
+    writing-mode: vertical-rl;
+
+}
+
+.email:hover , .email:focus
+ {
+  transform: translateY(-5px);
+}

@@ -1,0 +1,61 @@
+.header{
+     display: flex;
+     background-color: #0b0c10;
+     justify-content: space-between;
+     flex: 1;
+     padding: 11px;
+     position: relative;
+   align-items: center;
+} 
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}  
+.menu{
+    
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.icon{
+
+    color: #66fcf1;
+}
+.pc{
+    color: white;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.web-menu{
+    display: flex;
+
+}
+.mobile-menu{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 720px){
+    .mobile-menu{
+        display: flex;
+    }
+    .web-menu{
+        display: none;
+    }
+  .big-logo{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
+}
+.y{
+    color: #66fcf1;
+}
+.y:hover{
+    color: white;
+}

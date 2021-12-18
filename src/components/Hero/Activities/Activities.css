@@ -1,0 +1,64 @@
+.activities{
+    margin-top: 200px;
+    margin-left: 150px;
+    max-width: 1000px;
+    }
+    .pgrid{
+        list-style: none;
+    padding: 10px;
+    margin-left: 100px;
+    margin: 90px 30px 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: px;
+    grid-column-gap: px;
+    grid-row-gap: 35px;
+    position: relative;
+    }
+
+    .pbox{
+        
+  transition: 0.3s;
+  width: 93%;
+  padding: 2rem 1.75rem;
+ background-color: #112240;
+  border-radius: 5px;    
+}
+.des{
+    color: #A8b2d1;
+    font-size: 16px;
+}
+.title{
+    font-size: 35px;
+    color: white;
+}
+.linkss{
+    color: #A8b2d1;
+font-size: 14px;
+}
+.btns{
+    color: #A8b2d1;
+    
+}
+.pbox:hover{
+    transform: translateY(-15px);
+    
+    
+}
+.icon{
+    font-size: 50px;
+}
+.icon2{
+    font-size: 20px;
+}
+@media only screen and (max-width: 720px){
+    .activities{
+        margin-left: 0px;
+        
+    }
+    .pgrid{
+        padding: 0px;
+        margin-top: 5px;
+        margin-right: 7px;
+    }
+}
