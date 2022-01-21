@@ -15,15 +15,15 @@ const Contact = () => {
           I’m currently looking for any new opportunities.You have a question or <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  just want to say hi, I’ll try my best to get back to you!
          </p>
          <p className='fairm'>
-          I’m currently looking for any new oppor-tunities.You have a question or just want to say hi, I’ll try my best to get back to you!
+          I’m currently looking for any new opportunities.You have a question or just want to say hi, I’ll try my best to get back to you!
          </p>
          <a href="mailto:rajprem4214@gmail.com">
   <button class="bn54">
     <span class="bn54span">Mail Me</span>
   </button>
 </a>
-<div className='end flux'>
-    Built With ❤️ By Prem Raj.
+<div className='end '>
+©Copyright 2021 | Built With ❤️ By Prem Raj.
 </div>
         </div>
         

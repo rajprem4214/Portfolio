@@ -1,26 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap");
 
-*{
+* {
   box-sizing: border-box;
   padding: 0;
-   margin: 0;
-
+  margin: 0;
 }
 body {
   margin: 0 0 3rem 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1rem;
   background-color: #00071c;
-    color: #64ffda;
+  color: #64ffda;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
-
-
-

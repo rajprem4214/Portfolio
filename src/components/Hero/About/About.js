@@ -9,10 +9,13 @@ const About = () => {
 
    
     return (
-        <div className="about">
+        <div className="about ">
             <div className="about-top">
                  <div className="about-info">
                      <div className="">
+                         <div className=''>
+
+                         </div>
                       <p className="name">Hi, I'm Prem.</p> 
                       <div className="twr type ">
                        A Blockchain Enthusiast,
