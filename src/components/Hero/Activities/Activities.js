@@ -39,7 +39,7 @@ const Activities = () => {
           <i className="uil uil-folder icon"></i>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a
-            href="https://github.com/rajprem4214"
+            href="https://github.com/rajprem4214/Matdaan"
             target="_blank"
             className="btns"
           >
@@ -47,7 +47,7 @@ const Activities = () => {
           </a>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <a
-            href="https://github.com/rajprem4214"
+            href="https://github.com/rajprem4214/Matdaan"
             target="_blank"
             className="btns"
           >
@@ -55,19 +55,18 @@ const Activities = () => {
           </a>
           <br />
           <br />
-          <span className="title ">Random</span> <br /> <br />{" "}
+          <span className="title ">Matdaan</span> <br /> <br />{" "}
           <span className="des">
-            A Decentralised Voting System Using BlockChain made in Mini
-            Hackathon NMIT.
+          A Decentralised voting system using Ethereum Blockchain.
             <br /> <br />
           </span>
-          <span className="linkss"> ▹Ethereum ▹Truffle ▹MetaMask ▹Web3 </span>
+          <span className="linkss"> ▹Ethereum ▹Blockchain ▹MetaMask ▹Web3 </span>
         </div>
         <div className="pbox">
           <i className="uil uil-folder icon"></i>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a
-            href="https://github.com/rajprem4214"
+            href="https://github.com/rajprem4214/CRUD-App"
             target="_blank"
             className="btns"
           >
@@ -75,7 +74,7 @@ const Activities = () => {
           </a>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <a
-            href="https://github.com/rajprem4214"
+            href="https://github.com/rajprem4214/CRUD-App"
             target="_blank"
             className="btns"
           >
@@ -83,13 +82,12 @@ const Activities = () => {
           </a>
           <br />
           <br />
-          <span className="title ">Random</span> <br /> <br />{" "}
+          <span className="title ">CRUD-App</span> <br /> <br />{" "}
           <span className="des">
-            A Decentralised Voting System Using BlockChain made in Mini
-            Hackathon NMIT.
+          A application made using NodeJS , Express JS and MongoDB to showcase CRUD Operations.
             <br /> <br />
           </span>
-          <span className="linkss"> ▹Ethereum ▹Truffle ▹MetaMask ▹Web3 </span>
+          <span className="linkss"> ▹NodeJS ▹Express ▹MongoDB ▹CRUD </span>
         </div>
       </div>
     </div>
