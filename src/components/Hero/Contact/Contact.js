@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 const Contact = () => {
     return (
-        <div className='cbody'> 
+        <div data-aos="fade-down" className='cbody'> 
             
 
             <label className=" numbered-heading ct"><p className='number ac'>04.&nbsp;&nbsp;&nbsp;</p> Contact</label>

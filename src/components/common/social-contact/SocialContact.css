@@ -1,8 +1,8 @@
 ul{
     position: relative;
     display: flex;
-    justify-content: flex-end;
-    padding-top: 50px;
+    justify-content: center;
+    padding-top: 100px;
 }
 
 ul li{
@@ -22,7 +22,7 @@ ul li a{
     justify-content: center;
     align-items: center;;
     text-decoration: none;
-    
+    color: #66fcf1;
     font-size: 1.3em;
     border: 1px solid rgba(255, 255, 255, 0.4);
     border-right: 1px solid rgba(255, 255, 255, 0.2);
