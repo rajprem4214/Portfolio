@@ -35,6 +35,13 @@ const Mobile = ({isOpen , setIsOpen}) => {
                 </a>
                 <Separator />
             </div>
+
+            <div className="mobile-option pc">
+                <a href="/PNF">
+          Achievements
+                </a>
+                <Separator />
+            </div>
             </div>
         </div>
     )

@@ -40,9 +40,41 @@
 }
 .about{
   
-  padding-bottom: 40px;
-  margin-top: 80px;
-  
+height: 100%;
+width: 100%;
+
+padding-bottom: 130px;
+}
+.Name{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+            letter-spacing: 1;
+               font-size: 90px;
+              color: #ccd6f6;
+              font-weight : 900;
+              margin-top: 150px;
+              
+}
+.tagline{
+  color: #6c82b9;
+            font-size: 18px;
+            letter-spacing: 1;
+            display: flex;
+            justify-content:center;
+            margin-top:10px;
+            
+}
+.quote1{
+  color:rgb(75 85 99);
+            display:flex;
+            justify-content:center;
+            margin-top:25px
+}
+.quote2{
+  color:rgb(75 85 99);
+            display:flex;
+            justify-content:center;
 }
 .skewed{
   position: absolute;
@@ -61,6 +93,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 90%;
 }
 .picture{
   height: 200px;
@@ -85,7 +118,7 @@
 }
 .about-info{
   margin-top: 110px;
-
+   
 }
 
 @media only screen and (max-width: 720px){
@@ -119,10 +152,25 @@
   margin-top: 20px;
 
 }
-
+.Name{
+  font-size: 45px;
+  margin-top: 120px;
+}
+.tagline{
+  font-size: 15px;
+}
+.quote1{
+  font-size: 14px;
+}
+.quote2{
+  font-size: 14px;
   
 }
-
+.scontact{
+margin-top: -20px;
+padding-bottom: 0px;
+}
+}
 
 .button-64 {
   align-items: center;

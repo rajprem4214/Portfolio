@@ -32,7 +32,7 @@
 
   align-items: center;
 
-  margin-right: 100px;
+  margin-right: 190px;
   margin-top: 130px;
   font-size: 15px;
   font-weight: 400;
@@ -53,7 +53,7 @@
   color: white;
   display: flex;
   justify-content: flex-end;
-  margin-right: 100px;
+  margin-right: 190px;
   font-size: 25px;
 }
 .project-title2 {
@@ -104,7 +104,7 @@
   position: relative;
   z-index: 2;
   margin: 0px 5px 5px 5px; 
-  margin-right: 90px;
+  margin-right: 170px;
   color: #c5c6c7;
   padding: 0px;
 }

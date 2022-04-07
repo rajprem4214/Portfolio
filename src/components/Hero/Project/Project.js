@@ -10,7 +10,7 @@ function Project(){
              <label className=" numbered-heading "><p className='number '>01.&nbsp;&nbsp;&nbsp;</p> About Me</label>
              <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap" rel="stylesheet"/>
        
-	   <p className='bout'>
+	   <p data-aos="fade-right" className='bout'>
 		   Hello! My name is <span className='nm'>Prem Raj</span> and I love creating things on Internet.
 		   <br />
 		    I'm highly interested in <span className='nm'>Blockchain Technology</span> and its Development.<br />

@@ -7,7 +7,7 @@ const Activities = () => {
         <p className="number ">03.&nbsp;&nbsp;&nbsp;</p> Activities
       </label>
       <div className="pgrid">
-        <div className="pbox">
+        <div data-aos="flip-up" className="pbox">
           <span></span>
           <i className="uil uil-folder icon decoration-white"></i>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -35,7 +35,7 @@ const Activities = () => {
           </span>
           <span className="linkss"> ▹Ethereum ▹Truffle ▹MetaMask ▹Web3 </span>
         </div>
-        <div className="pbox">
+        <div data-aos="flip-up" className="pbox">
           <i className="uil uil-folder icon"></i>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a
@@ -62,7 +62,7 @@ const Activities = () => {
           </span>
           <span className="linkss"> ▹Ethereum ▹Blockchain ▹MetaMask ▹Web3 </span>
         </div>
-        <div className="pbox">
+        <div data-aos="flip-up" className="pbox">
           <i className="uil uil-folder icon"></i>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a

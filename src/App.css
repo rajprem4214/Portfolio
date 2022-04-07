@@ -1,0 +1,36 @@
+
+.s-loader{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+@media only screen and (max-width: 1024px){
+
+    .s-loader{
+        width: 100%;
+        justify-content: center;
+         align-items: center;
+         height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 512px){
+     .s-loader{
+         width: 100%;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+     }
+}
+@media only screen and (max-width: 300px){
+    .s-loader{
+        width: 100%;
+        justify-content: center;
+         align-items: center;
+         height: 100vh;
+    }
+}

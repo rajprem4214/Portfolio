@@ -26,6 +26,12 @@ const Web = () => {
                  Contact
                 </a>
             </div>
+
+            <div className="web-option pc">
+                <a href="/PNF">
+                 Achievements
+                </a>
+            </div>
         </div>
     )
 }
