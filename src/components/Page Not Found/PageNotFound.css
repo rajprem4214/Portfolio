@@ -4,15 +4,7 @@
 			/* 1. BODY */
 /***********************************/
 
-
-
-
-
-
-
-
-
-.e-nav__link{
+.e-nav__link {
   margin: 0;
   padding: 0;
   vertical-align: baseline;
@@ -21,16 +13,11 @@
   color: #000;
 }
 
-
-
-
-
-.starsec .starthird .starfourth .starfifth{
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-   
+.starsec .starthird .starfourth .starfifth {
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
 .top-header:before {

@@ -7,7 +7,7 @@ const Activities = () => {
         <p className="number ">03.&nbsp;&nbsp;&nbsp;</p> Activities
       </label>
       <div className="pgrid">
-        <div data-aos="flip-up" className="pbox">
+        <div data-aos="fade-up" className="pbox">
           <span></span>
           <i className="uil uil-folder icon decoration-white"></i>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -30,12 +30,13 @@ const Activities = () => {
           <br />
           <span className="title ">Mini Hackathon</span> <br /> <br />{" "}
           <span className="des">
-            Participated in Mini Hackathon 2021.Made a decentralised Voting System
+            Participated in Mini Hackathon 2021.Made a decentralised Voting
+            System
             <br /> <br />
           </span>
           <span className="linkss"> ▹Ethereum ▹Truffle ▹MetaMask ▹Web3 </span>
         </div>
-        <div data-aos="flip-up" className="pbox">
+        <div data-aos="fade-up" className="pbox">
           <i className="uil uil-folder icon"></i>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a
@@ -57,12 +58,15 @@ const Activities = () => {
           <br />
           <span className="title ">Matdaan</span> <br /> <br />{" "}
           <span className="des">
-          A Decentralised voting system using Ethereum Blockchain.
+            A Decentralised voting system using Ethereum Blockchain.
             <br /> <br />
           </span>
-          <span className="linkss"> ▹Ethereum ▹Blockchain ▹MetaMask ▹Web3 </span>
+          <span className="linkss">
+            {" "}
+            ▹Ethereum ▹Blockchain ▹MetaMask ▹Web3{" "}
+          </span>
         </div>
-        <div data-aos="flip-up" className="pbox">
+        <div data-aos="fade-up" className="pbox">
           <i className="uil uil-folder icon"></i>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a
@@ -84,7 +88,8 @@ const Activities = () => {
           <br />
           <span className="title ">CRUD-App</span> <br /> <br />{" "}
           <span className="des">
-          A application made using NodeJS , Express JS and MongoDB to showcase CRUD Operations.
+            A application made using NodeJS , Express JS and MongoDB to showcase
+            CRUD Operations.
             <br /> <br />
           </span>
           <span className="linkss"> ▹NodeJS ▹Express ▹MongoDB ▹CRUD </span>
