@@ -68,7 +68,7 @@
   padding: 25px;
   border-radius: 4px;
   background-color: #112240;
-  
+
   color: #a8b2d1;
   font-size: 18px;
   width: 47%;
@@ -84,7 +84,7 @@
 }
 .project-description2:hover {
   transform: translateY(-10px);
- 
+
   border-radius: 2px;
 }
 
@@ -103,7 +103,7 @@
   flex-wrap: wrap;
   position: relative;
   z-index: 2;
-  margin: 0px 5px 5px 5px; 
+  margin: 0px 5px 5px 5px;
   margin-right: 170px;
   color: #c5c6c7;
   padding: 0px;
@@ -125,8 +125,7 @@ button {
   position: absolute;
   margin-top: 265vh;
   margin-left: 40vw;
-  
-  
+
   font-family: inherit;
   font-size: 20px;
   background: royalblue;
@@ -139,57 +138,56 @@ button {
   border-radius: 16px;
   overflow: hidden;
   transition: all 0.2s;
- }
- 
- button span {
+}
+
+button span {
   display: block;
   margin-left: 0.3em;
   transition: all 0.3s ease-in-out;
- }
- 
- button svg {
+}
+
+button svg {
   display: block;
   transform-origin: center center;
   transition: transform 0.3s ease-in-out;
- }
- 
- button:hover .svg-wrapper {
+}
+
+button:hover .svg-wrapper {
   animation: fly-1 0.6s ease-in-out infinite alternate;
- }
- 
- button:hover svg {
+}
+
+button:hover svg {
   transform: translateX(1.2em) rotate(45deg) scale(1.1);
- }
- 
- button:hover span {
+}
+
+button:hover span {
   transform: translateX(5em);
- }
- 
- button:active {
+}
+
+button:active {
   transform: scale(0.95);
- }
- 
- @keyframes fly-1 {
+}
+
+@keyframes fly-1 {
   from {
-   transform: translateY(0.1em);
+    transform: translateY(0.1em);
   }
- 
+
   to {
-   transform: translateY(-0.1em);
+    transform: translateY(-0.1em);
   }
- }
- 
- 
- 
+}
+
 @media only screen and (max-width: 720px) {
   .project {
     margin-left: -10px;
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
   }
 
   .pimage {
-      display: none;
+    display: none;
     position: absolute;
     border-radius: 20px;
     margin-top: 80px;
@@ -199,12 +197,12 @@ button {
     object-fit: cover;
   }
   .pimage2 {
-      display: none;
+    display: none;
     margin-top: auto;
-    margin-right: px ;
+    margin-right: px;
   }
   .pimage3 {
-      display: none;
+    display: none;
     margin-top: 1700px;
   }
   .project-overline {
@@ -213,7 +211,8 @@ button {
     align-items: center;
     z-index: 0;
     margin-top: auto;
-    margin-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
     width: auto;
     height: 100%;
     font-size: 15px;
@@ -221,16 +220,14 @@ button {
   }
   .project-overline2 {
     margin-top: auto;
-    margin-left: 100px;
-  
   }
   .project-overline3 {
     margin-top: auto;
-    margin-left: 100px;
   }
   .project-title {
     margin-top: 0px;
-    margin-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
     width: auto;
     height: 100%;
     color: white;
@@ -241,7 +238,6 @@ button {
     z-index: 0;
   }
   .project-title2 {
-    margin-left: 100px;
   }
   .project-description {
     display: flex;
@@ -278,7 +274,7 @@ button {
     font-size: 23px;
     color: white;
   }
-  button{
+  button {
     position: absolute;
     margin-top: 200vh;
     margin-left: 35vw;

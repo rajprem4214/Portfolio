@@ -10,12 +10,10 @@
   margin: 0;
 }
 body {
- 
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   background-color: #00071c;
   color: #64ffda;
-  overflow-x: hidden;
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -31,4 +29,11 @@ body {
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+@media screen and (max-width: 720px) {
+  html {
+    width: 100vw;
+    overflow-x: hidden;
+  }
 }

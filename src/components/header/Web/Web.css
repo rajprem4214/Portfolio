@@ -1,33 +1,27 @@
-.web{
-     display: flex;
-     flex: 1;
-     
+.web {
+  display: flex;
+  flex: 1;
 }
-.web-option{
-    
-    margin-right: 80px;
-    
+.web-option {
+  margin-right: 80px;
 }
-.web-option a{
-    text-decoration: none;
-    display: flex;
-    align-items: center;
+.web-option a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
-.option-icon{
-    display: flex;
-    align-items: center;
-    margin-right: 4px;
+.option-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
 }
 
-
-
-.icon{
-
-    color: #66fcf1;
+.icon {
+  color: #66fcf1;
 }
-.pc{
-    color: white;
+.pc {
+  color: white;
 }
-a:hover{
-    color:#66fcf1 ;
+a:hover {
+  color: #66fcf1;
 }

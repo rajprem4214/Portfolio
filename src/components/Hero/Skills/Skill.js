@@ -13,11 +13,16 @@ const Skill = () => {
           alt="Picture by Daniel Linc"
         />
       </div>
-      <p data-aos="fade-left" className="project-overline ">Featured Project</p>
-      <h3 data-aos="fade-left" className="project-title">Krypt</h3>
-      <div  data-aos="fade-left"className="project-description">
+      <p data-aos="fade-left" className="project-overline ">
+        Featured Project
+      </p>
+      <h3 data-aos="fade-left" className="project-title">
+        Krypt
+      </h3>
+      <div data-aos="fade-left" className="project-description">
         <p className="parag">
-        A Web3 Site to transfer crypto all over the world and transactions are viewed on screen.
+          A Web3 Site to transfer crypto all over the world and transactions are
+          viewed on screen.
           <br />
           <p data-aos="fade-left" className="p-link">
             <a href="https://github.com/rajprem4214/Krypt" target="_blank">
@@ -38,15 +43,22 @@ const Skill = () => {
         <li>Web3</li>
       </ul>
 
-      <div  data-aos="fade-left"className="pimage pimage2">
+      <div data-aos="fade-left" className="pimage pimage2">
         <img
           src="https://i.ibb.co/6PhXKzh/maxresdefault.jpg"
           alt="Picture by Daniel Linc"
         />
       </div>
-      <p data-aos="fade-right" className="project-overline project-overline2">Featured Project</p>
-      <h3 data-aos="fade-right" className="project-title project-title2">Weather App</h3>
-      <div data-aos="fade-right" className="project-description project-description2">
+      <p data-aos="fade-right" className="project-overline project-overline2">
+        Featured Project
+      </p>
+      <h3 data-aos="fade-right" className="project-title project-title2">
+        Weather App
+      </h3>
+      <div
+        data-aos="fade-right"
+        className="project-description project-description2"
+      >
         <p className="parag parag2">
           React App that tells weather of a city.
           <br />
@@ -80,8 +92,12 @@ const Skill = () => {
           alt="Picture by Daniel Linc"
         />
       </div>
-      <p data-aos="fade-left" className="project-overline project-overline3">Featured Project</p>
-      <h3 data-aos="fade-left" className="project-title">Decentragram</h3>
+      <p data-aos="fade-left" className="project-overline project-overline3">
+        Featured Project
+      </p>
+      <h3 data-aos="fade-left" className="project-title">
+        Decentragram
+      </h3>
       <div data-aos="fade-left" className="project-description">
         <p className="parag">
           Instagram On Ethereum Blockchain
@@ -109,8 +125,6 @@ const Skill = () => {
         <li>Ethereum</li>
         <li>Truffle</li>
       </ul>
-
-      
     </div>
   );
 };
